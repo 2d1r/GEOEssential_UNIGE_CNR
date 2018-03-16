@@ -43,7 +43,7 @@
       "description": "Output shapefile archive",
       "name": "merge.zip",
       "valueSchema": "url",
-      "target": "Data/merge.zip"
+      "target": "Data/unigemerge.tar.gz"
  }
   ]
 }
