@@ -1,0 +1,10 @@
+<OGRVRTDataSource>
+    <OGRVRTUnionLayer name="unionLayer">
+        <OGRVRTLayer name="kba_ch">
+            <SrcDataSource>../Data/kba_ch.shp</SrcDataSource>
+        </OGRVRTLayer>
+        <OGRVRTLayer name="WDPA_Mar2018-shapefile-points">
+            <SrcDataSource>../Data/WDPA_Mar2018-shapefile-points.shp</SrcDataSource>
+        </OGRVRTLayer>
+    </OGRVRTUnionLayer>
+</OGRVRTDataSource>

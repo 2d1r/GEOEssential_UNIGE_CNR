@@ -1,0 +1,49 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3f5",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the protected areas in Swiss",
+      "name": "World WPA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/WDPA_W.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fg",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the byodiversity areas in Swiss",
+      "name": "Swiss KBA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/kba.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fh",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Merge file",
+      "name": "Merge",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/merge.vrt"
+ }
+
+  ],
+  "outputs": [
+      {
+      "id": "DataObject_0n95v56",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile archive",
+      "name": "merge.zip",
+      "valueSchema": "url",
+      "target": "Data/merge.zip"
+ }
+  ]
+}

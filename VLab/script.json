@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "Script/runUNIGE.sh",
+      "targetPath": "Script/runUNIGE.sh",
+      "pathType": "FILE"
+ }
+  ]
+}
